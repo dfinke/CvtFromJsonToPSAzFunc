@@ -1,3 +1,0 @@
-function DoHello {
-    "Hello"
-}
