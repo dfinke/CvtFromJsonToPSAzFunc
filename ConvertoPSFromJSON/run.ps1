@@ -1,1 +1,1 @@
-"hello world" > $res
+DoHello > $res
