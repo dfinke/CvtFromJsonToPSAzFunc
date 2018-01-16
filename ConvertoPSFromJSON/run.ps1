@@ -1,4 +1,8 @@
 
 $requestBody = Get-Content $req -Raw | ConvertFrom-Json
 
-ConvertTo-Class $requestBody.srcText > $res
+$src = $requestBody.srcText
+
+$src | Out-String
+
+ConvertTo-Class $src > $res
